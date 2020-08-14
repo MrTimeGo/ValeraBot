@@ -8,4 +8,4 @@ bot = commands.Bot(command_prefix = settings['prefix'])
 async def Igor(ctx):
     await ctx.send("Пидор!")
 
-bot.run(settings['token'])
+bot.run(settings['token' - '-'])
