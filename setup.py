@@ -6,6 +6,6 @@ bot = commands.Bot(command_prefix = settings['prefix'])
 
 @bot.command()
 async def Igor(ctx):
-    print('Пидор!')
+    await ctx.send("Пидор!")
 
 bot.run(settings['token'])
